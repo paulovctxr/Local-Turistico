@@ -1,24 +1,51 @@
 
-
 img {
   border-radius: 28px;  /* Adicionar o arredondamento da borda */
   width: 100%; /* imagem ocupa 100% do tamanho disponível pra ela */
 }
 body {
-  font-family: Arial, sans-serif; /* Fonte legível e moderna */
+  font-family: "Open Sans", sans-serif; /* Fonte legível e moderna */
   margin: 0;
   padding: 20px;
   background-color: #F5F4F0;
 }
+
 header {
   text-transform: uppercase; /* força maiúsculas */
   color: #E1624F;            /* cor qualquer, substitua como quiser */
 }
-.subtitle {
+
+/* classe para colorir itens específicos */
+li.lista-destaque,
+ul.lista-destaque li {
+  color: #0C51A7; /* cor verde água, mude conforme quiser */
+}
+
+p ,footer{
+  font-size: 16px;
+  font-weight: regular;
+  color: #333333;
+}
+li.family {
+  color: #E5245E; /* cor laranja, mude conforme quiser */
+}
+li.orça {
+  color: #E95E10; /* cor verde, mude conforme quiser */
+} 
+li.casa {
+  color: #591B98; /* cor azul, mude conforme quiser */
+}
+.bom {
+  color: #333333; /* cor vermelha, mude conforme quiser */
+}
+.subtitle, footer{
   font-size: 16px;
   line-height: 22px;
   font-style: italic; /* Muda estilo da fonte para itálico */
   text-align: center;
   color: #333333;
   margin-top: 24px;
+}
+.h3, .h4 {
+  text-transform: uppercase;
 }
